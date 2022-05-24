@@ -1,6 +1,6 @@
 <!--PORTFOLIO.WEB-->
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta content="autor" content="PachiSaurio">
@@ -13,87 +13,175 @@
         
     </head>
     <body>
-        <div>
-            <header style="background-color: #00358E;">
+        <header style="background-color: #00358E;">
+            <div>
                 <div>
                     <img src="images/ArgProg.jpg" alt="ArgentinaPrograma" height="60px">
                     <img src="images/Inti.jpg" alt="INTI" height="60px">
                     <img src="images/MinDesProArg.jpg" alt="Ministerio_deDesarrolloyProduccion-Argentina" height="60px">
-                    <p>Argentina Programa - # Yo Programo</p>    
                 </div>
-                <!--
-                    color #00358E // 
-                -->
+                <p style="font-family: Roboto; color: #FFFFFF;">Argentina Programa - # Yo Programo</p>    
+            </div>
+            <div>
+                <div>
+                    <ul id="social-links">
+                        <li>
+                            <a href="www.facebook.com">
+                                <button id="face-link" >Face</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="www.instagram.com">
+                                <button id="linkedin-link">Linkedin</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="www.linkedin.com">
+                                <button id="insta-link">Insta</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="www.github.com">
+                                <button id="git-link">Github</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>                   
+                    
+                <button id="login-btn">LOGIN</button>
+                
+            </div>
             </header>
-        </div>
-        <div>
+         
             <nav style="background-color: #D9D9D9;">
-
+                
+                <ul id="sections">
+                    <li>
+                        <button id="btn-sec-about">Acerca</button>
+                    </li>
+                    <li>
+                        <button id="btn-exp">Experiencia</button>
+                    </li>
+                    <li>
+                        <button id="btn-study">Estudios</button>
+                    </li>
+                    <li>
+                        <button id="btn-skills">Skills</button>
+                    </li>
+                    <li>
+                        <button id="btn-proyects">Proyectos</button>   
+                    </li>
+                </ul>
+                     
             </nav>
-        </div>
+        
         <div style="background-color: #DCEFFA;">
-            <section></section>
+            <section id="banner">
+                <img src="images/banner.jpg" alt="banner-portfolio">
+                <img src="images/pablo-img.jpg" alt="foto-portfolio" height="150px">
+            </section>
+            <section id="about">
+                <h1 style="font-family: Roboto; color: #00358E;"> Pablo Pacci </h1>
+                <div id="titles">
+                    <ul>
+                        <li>
+                            <h2>Full Stack Developer Jr.</h2>
+                        </li>
+                        <li>
+                            <h2>Técnico Electrónico</h2>
+                        </li>
+                    </ul>
+                </div>
+                <div id="data-ext">
+                    <ul>
+                        <li>Desarrollador Full Stack Jr.</li>
+                        <li>Técnico Electrónico con capacidad de Diagramado y Desarrollo de circuitos</li>
+                        <li>Técnico en reparacion de Equipos Informaticos</li>
+                        <li>Estudiante de Ingeniería en Electrónica - 3er año en Curso</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="exp">
+                <h2>Experiencia.</h2>
+                <div>
+                    <ul>
+                        <li>
+                            <h3>Año 2016 - Actualidad</h3>
+                            <h4>Reparación de Equipos Electrónicos</h4>
+                            <p>Reparación de telefonia celular - tablets - computadoras - notebooks - monitores</p>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="www.restosoft.com.ar">
+                        <img src="images/resto-foto.jpg" alt="restosoft" height="130">
+                    </a>
+                    <div>
+                        <h3>Año 2017 - Actualidad</h3>
+                        <h4>Restosoft</h4>
+                        <p>Servicio Técnico Integral <br> Reparacion de equipos informaticos <br> Reparacion de Impresoras termicas y Matriciales para Sistemas de Comanda
+                        <br>Armado de redes y configuracion de redes LAN <br> Atencion a clientes personalizada</p>
+                    </div>
+                </div>
+            </section>
+            <section id="Estudios">
+                <h2>Estudios</h2>
+                <div>
+                    <div>
+                        <h3>Año 2010 - Actualidad. -3er Año </h3>
+                        <p> Universidad Nacional de La Plata <br>Ingenieria en Eléctronica</p>
+                        <img src="images/ingunlp.jpg" alt="ing-unlp" height="130">
+                        <img src="images/unlp.jpg" alt="UNLP" height="130">
+                    </div>
+                    <div>
+                        <h3>Año 2002 - Año 2008</h3>
+                        <p>EET Nº1 "Crucero Gral. Belgrano" - (Buenos Aires-Pinamar) <br> Bachiller en Electromecánica</p>
+                    </div>
+                </div>
+            </section>
+            <section id="skills">
+                <div id="tec-skills">
+                    <h2>Aptitudes Técnicas</h2>
+                    <ul>
+                        <li>Diseño y Reparación de Equipos Electrónicos</li>
+                        <li>Reparacion de Hardware</li>
+                    </ul>
+                </div>
+                
+                <div id="prof-skills">
+                    <h2>Aptitudes Prfesionales</h2>
+                    <ul>
+                        <li>Trabajo en Equipo</li>
+                        <li>Proactividad</li>
+                        <li>Capacidad de Aprendizaje</li>
+                        <li>Creatividad</li>
+                        <li>Habilidades Comunicacionales</li>
+                    </ul>
+                </div>
+                <div id="Idiomas">
+                    <p>Ingles</p>
+                </div>
+                <div id="Herramientas Informaticas">
+                    <ul>
+                        <li>Programacion en lenguaje "C"</li>
+                        <li>Excell - Planillas de Datos</li>
+                        <li>Software de Diseño Electrónico</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="Proyects">
+                <h2>Proyectos</h2>
+                <div>
+                    <h3>Realizacion de Portfolio Web para Pacci Pablo</h3>
+                    <p>Fecha de Realizacion: Mayo 2022</p>
+                </div>
+            </section>
         </div>
         <div>
             <footer style="background-color: #00358E;">
-
+                <!-- Footer. Contacto? . Copyright? . Declaimer? -->
             </footer>
         </div>
 
-        <!--LINKS <a>FACEBOOK - INSTAGRAM - Linkedin - Github - Restosoft
-
-            <a href="www.facebook.com"></a>
-            <a href="www.instagram.com"></a>
-            <a href="www.linkedin.com"></a>
-            <a href="www.github.com"></a>
-            <a href="www.restosoft.com.ar"></a>
-
-        -->
-
     </body>
 </html>
-
-<!--
-
-
-        <div class="tarjeta" id="tarjeta1">
-            <div id="profile-fondo">
-                <img height="300px" src=".\archive\banner.png" alt="banner-portfolio">
-            </div>
-            <div id="info" style="padding: 20px;">
-                <div id="info-img">
-                    <img height="150px" class="profile-img" src=".\images\pablo-img.jpg" alt="PabloPacci">
-                    <button type="button" class="btn btn-light">Edit</button>
-                </div>
-                <div id="info-data">
-                    <h1>Pablo Pacci</h1>
-                        <div>
-                            <ul id="info-trabajo">
-                                <li>Soporte Técnico en RESTOSOFT</li>
-                                <li>Técnico Electrónico</li>
-                            </ul>
-                        </div>
-                        <div id="info-contacto">
-                            <span>La Plata, Buenos Aires, Argentina</span>
-                            <span><a href="#">Informacion de Contacto</a></span>
-                        </div>
-                </div>
-                <div id="info-acciones">
-                    <button type="button" class="btn btn-primary">Interés en</button>
-                    <button type="button" class="btn btn-light">Añadir Seccion</button>
-                    <button type="button" class="btn btn-light">Más</button>
-                </div>
-        
-            </div>
-        </div>
-
-
-        <h1>Portfolio de PachiSaurio.</h1>
-        <h2>Ideas, Proyectos, Experiencias y demas.</h2>
-        <img src="images/pablo-tori.jpg" alt="pablo-tori"
-            height="400px" >
-            <a href="https://www.facebook.com/pachi.drzapato"></a>
-        <p>Vamos a hacer una breve presentacion.</p>
-        <p id="presentacion">Mi nombre es Pablo, soy una persona inquieta que busca constantemente conocer nuevas experiencias.</p>
-
-        -->
