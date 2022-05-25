@@ -1,6 +1,8 @@
-/* font family para todo Roboto.*/
+* {font-family: roboto;}
+section {padding: 16px;}
 
-/*p header y footer = color blanco /*
+header {color: #FFFFFF;}
+footer {color: #FFFFFF;}
 
 /* 
 .tarjeta{
