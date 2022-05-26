@@ -7,92 +7,68 @@
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>Portfolio-PacciPablo</title>
-        <link rel="stylesheet" href="style.css">
-        <!--
-        <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
-        -->
-        
+        <link rel="stylesheet" href="style.css"> 
     </head>
     <body>
-        <header style="background-color: #00358E;">
-            <div>
-                <div>
-                    <img src="images/ArgProg.jpg" alt="ArgentinaPrograma" height="60px">
-                    <img src="images/Inti.jpg" alt="INTI" height="60px">
-                    <img src="images/MinDesProArg.jpg" alt="Ministerio_deDesarrolloyProduccion-Argentina" height="60px">
-                </div>
-                <p>Argentina Programa - # Yo Programo</p>    
-            </div>
-            <div>
-                <div>
-                    <ul id="social-links">
-                        <li>
-                            <a href="www.facebook.com">
-                                <button id="face-link" >Face</button>
-                            </a>
+        <div id="header">
+            <ul class="head">
+                <li>
+                    <div>
+                        <div>
+                            <img src="images/ArgProg.jpg" alt="ArgentinaPrograma" height="60px">
+                            <img src="images/Inti.jpg" alt="INTI" height="60px">
+                            <img src="images/MinDesProArg.jpg" alt="Ministerio_deDesarrolloyProduccion-Argentina" height="60px">
+                        </div>
+                        <p style="padding-left: 16px; margin: 0px">Argentina Programa - # Yo Programo</p>    
+                    </div>
+                </li>
+                <li>
+                    <div class="head-btn">
+                        <ul class="head" style="padding: 30px;">
+                        <li style="padding-right: inherit;">
+                            <div>
+                                <ul id="social-links">
+                                    <li>
+                                        <a href="www.facebook.com">
+                                            <button id="face-link" >Face</button>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="www.instagram.com">
+                                            <button id="linkedin-link">Linkedin</button>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="www.linkedin.com">
+                                            <button id="insta-link">Insta</button>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="www.github.com">
+                                            <button id="git-link">Github</button>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
-                        <li>
-                            <a href="www.instagram.com">
-                                <button id="linkedin-link">Linkedin</button>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="www.linkedin.com">
-                                <button id="insta-link">Insta</button>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="www.github.com">
-                                <button id="git-link">Github</button>
-                            </a>
-                        </li>
-                    </ul>
-                </div>                   
-                    
-                <button id="login-btn">LOGIN</button>
-                
-            </div>
-            </header>
-         
-            <nav style="background-color: #D9D9D9;">
-                
-                <ul id="sections">
-                    <li>
-                        <button id="btn-sec-about">Acerca</button>
-                    </li>
-                    <li>
-                        <button id="btn-exp">Experiencia</button>
-                    </li>
-                    <li>
-                        <button id="btn-study">Estudios</button>
-                    </li>
-                    <li>
-                        <button id="btn-skills">Skills</button>
-                    </li>
-                    <li>
-                        <button id="btn-proyects">Proyectos</button>   
-                    </li>
-                </ul>
-                     
-            </nav>
-        
+                                                <li><button id="login-btn">LOGIN</button> </li>
+                                            </ul>
+                                            </div>
+                </li>
+            </ul>
+        </div>
         <div style="background-color: #DCEFFA;">
-            <section id="banner">
+            <div class="info-block" id="info-data">
                 <img src="images/banner.jpg" alt="banner-portfolio">
                 <img src="images/pablo-img.jpg" alt="foto-portfolio" height="150px">
-            </section>
-            <section id="about" >
-                <h1 style="font-family: Roboto; color: #00358E;"> Pablo Pacci </h1>
-                <div id="titles">
-                    <ul>
-                        <li>
-                            <h2>Full Stack Developer Jr.</h2>
-                        </li>
-                        <li>
-                            <h2>Técnico Electrónico</h2>
-                        </li>
-                    </ul>
-                </div>
+                <div class="info-data" id="about" >
+                    <h1 style="font-family: Roboto; color: #00358E;"> Pablo Pacci </h1>
+                    <div id="titles">
+                        <ul>
+                            <li><h2>Full Stack Developer Jr.</h2></li>
+                            <li><h2>Técnico Electrónico</h2></li>
+                        </ul>
+                    </div>
                 <div id="data-ext">
                     <ul>
                         <li>Desarrollador Full Stack Jr.</li>
@@ -101,8 +77,8 @@
                         <li>Estudiante de Ingeniería en Electrónica - 3er año en Curso</li>
                     </ul>
                 </div>
-            </section>
-            <section id="exp">
+            </div>
+            <div class="info-data" id="exp">
                 <h2>Experiencia.</h2>
                 <div>
                     <ul>
@@ -124,8 +100,8 @@
                         <br>Armado de redes y configuracion de redes LAN <br> Atencion a clientes personalizada</p>
                     </div>
                 </div>
-            </section>
-            <section id="Estudios">
+            </div>
+            <div class="info-data" id="Estudios">
                 <h2>Estudios</h2>
                 <div>
                     <div>
@@ -139,8 +115,8 @@
                         <p>EET Nº1 "Crucero Gral. Belgrano" - (Buenos Aires-Pinamar) <br> Bachiller en Electromecánica</p>
                     </div>
                 </div>
-            </section>
-            <section id="skills">
+            </div>
+            <div class="info-data" id="skills">
                 <div id="tec-skills">
                     <h2>Aptitudes Técnicas</h2>
                     <ul>
@@ -169,20 +145,44 @@
                         <li>Software de Diseño Electrónico</li>
                     </ul>
                 </div>
-            </section>
-            <section id="Proyects">
+            </div>
+            <div class="info-data" id="Proyects">
                 <h2>Proyectos</h2>
                 <div>
                     <h3>Realizacion de Portfolio Web para Pacci Pablo</h3>
                     <p>Fecha de Realizacion: Mayo 2022</p>
                 </div>
-            </section>
+            </div>
         </div>
-        <div>
-            <footer style="background-color: #00358E;">
-                <!-- Footer. Contacto? . Copyright? . Declaimer? -->
-            </footer>
-        </div>
-
     </body>
 </html>
+
+ <!--           <nav style="background-color: #D9D9D9;">
+                
+                <ul id="sections">
+                    <li>
+                        <button id="btn-sec-about">Acerca</button>
+                    </li>
+                    <li>
+                        <button id="btn-exp">Experiencia</button>
+                    </li>
+                    <li>
+                        <button id="btn-study">Estudios</button>
+                    </li>
+                    <li>
+                        <button id="btn-skills">Skills</button>
+                    </li>
+                    <li>
+                        <button id="btn-proyects">Proyectos</button>   
+                    </li>
+                </ul>
+                     
+            </nav>
+     -->
+
+     <!--       <div>
+            <footer style="background-color: #00358E;">
+                 Footer. Contacto? . Copyright? . Declaimer? 
+            </footer>
+        </div>
+    -->

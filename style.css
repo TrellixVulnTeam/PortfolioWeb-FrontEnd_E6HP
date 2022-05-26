@@ -1,8 +1,11 @@
 * {font-family: roboto;}
-section {padding: 16px;}
+.info-data {padding: 16px;}
+#social-links {display: flex; list-style:none;}
+#header {background-color: #00358E; color: #FFFFFF; }
+.head {display: flex; list-style:none; justify-content: space-between;margin: auto;}
+.head-btn {display: flex; justify-content: flex-end;}
 
-header {color: #FFFFFF;}
-footer {color: #FFFFFF;}
+footer {color: #FFFFFF; }
 
 /* 
 .tarjeta{
