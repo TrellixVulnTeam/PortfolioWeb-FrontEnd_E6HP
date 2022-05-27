@@ -1,17 +1,22 @@
 * {font-family: roboto;}
-.info-data {padding: 16px;}
+
+body {display: flex; flex-direction: column;}
+
 #social-links {display: flex; list-style:none;}
 #header {background-color: #00358E; color: #FFFFFF; }
-.head {display: flex; list-style:none; justify-content: space-between;margin: auto;}
+.head {display: flex;
+       list-style:none;
+       justify-content: space-between;margin: auto;}
 .head-btn {display: flex; justify-content: flex-end;}
 
+nav { background-color: #d9d9d9;}
+#sections { list-style: none; justify-content: space-between; display: flex;}
+
+ .info-data{
+    border-radius: 20px;
+    margin: 10px; 
+    border-color: blue;
+    border-style: solid; padding: 16px;
+}
 footer {color: #FFFFFF; }
 
-/* 
-.tarjeta{
-    border-radius: 35px;
-    margin: 10px;
-    padding: 20px;
-    border-color: blue;
-}
-*/
