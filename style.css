@@ -1,22 +1,23 @@
 * {font-family: roboto;}
-
 body {display: flex; flex-direction: column;}
-
 #social-links {display: flex; list-style:none;}
-#header {background-color: #00358E; color: #FFFFFF; }
+#header {background-color: #00358E; 
+         color: #FFFFFF; padding-bottom: 10px;}
 .head {display: flex;
        list-style:none;
        justify-content: space-between;margin: auto;}
 .head-btn {display: flex; justify-content: flex-end;}
+#profile-img {height: 150px; 
+              border-radius: 50%; 
+              margin-top: -100px; margin-left: 20px;}
+#sections {list-style: none; 
+           justify-content: space-between; 
+           display: flex;}
+.info-data{border-color: #a4a4d5; 
+            padding-left: 20px; 
+            border-bottom-style: solid; 
+            padding-bottom: 10px;}
 
 nav { background-color: #d9d9d9;}
-#sections { list-style: none; justify-content: space-between; display: flex;}
-
- .info-data{
-    border-radius: 20px;
-    margin: 10px; 
-    border-color: blue;
-    border-style: solid; padding: 16px;
-}
 footer {color: #FFFFFF; }
 
