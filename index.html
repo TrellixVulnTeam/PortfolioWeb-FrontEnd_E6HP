@@ -52,7 +52,10 @@
                                 </ul>
                             </div>
                         </li>
-                                                <li><button id="login-btn">LOGIN</button> </li>
+                            <div>
+                                <input id="login" oninput="funcionLogin(this.value)" style="display: none;" type="text"></input>
+                                <li><button id="login-btn">LOGIN</button></li>
+                            </div>
                                             </ul>
                                             </div>
                 </li>
@@ -84,7 +87,8 @@
                 <div><img src="images/banner.jpg" alt="banner-portfolio" style="width: 100%"></div>
                 <div>
                     <img id="profile-img" src="images/pablo-img.jpg" alt="foto-portfolio">
-                    <button id="edit-btn">edit</button>
+                    <input id="edit-profile-img" oninput="funEditProfileImg(this.value)" style="display: none;" type="text"></input>
+                    <button id="edit-btn" onclick="edit_img()">edit</button>
                 </div>
                 <div class="info-data" id="about" >
                     <div id="info-flex">
@@ -106,7 +110,10 @@
                             </ul>
                         </div>
                     </div>
-                    <div><button>Añadir-Seccion</button></div>
+                    <div>
+                        <input id="editData" oninput="funEditData(this.value)" style="display: none;" type="text"></input>
+                        <button onclick="edit_data()">Añadir-Seccion</button>
+                    </div>
                 </div>
             </div>
             <div class="info-data" id="info-flex">
@@ -133,6 +140,10 @@
                             <p>Servicio Técnico Integral <br> Reparacion de equipos informaticos <br> Reparacion de Impresoras termicas y Matriciales para Sistemas de Comanda
                             <br>Armado de redes y configuracion de redes LAN <br> Atencion a clientes personalizada</p>
                         </div>
+                        <div>
+                            <input id="editExp" oninput="funEditExp(this.value)" style="display: none;" type="text"></input>
+                            <button onclick="edit_exp()">Añadir-Seccion</button>
+                        </div>
                     </div>
                 </div>              
             </div>
@@ -148,6 +159,10 @@
                     <div>
                         <h3>Año 2002 - Año 2008</h3>
                         <p>EET Nº1 "Crucero Gral. Belgrano" - (Buenos Aires-Pinamar) <br> Bachiller en Electromecánica</p>
+                    </div>
+                    <div>
+                        <input id="editStudy" oninput="funEditStudy(this.value)" style="display: none;" type="text"></input>
+                        <button>Añadir-Seccion</button>
                     </div>
                 </div>
             </div>
@@ -180,12 +195,20 @@
                         <li>Software de Diseño Electrónico</li>
                     </ul>
                 </div>
+                <div>
+                    <input id="editSkills" oninput="funEditSkills(this.value)" style="display: none;" type="text"></input>
+                    <button>Añadir-Seccion</button>
+                </div>
             </div>
             <div class="info-data" id="Proyects">
                 <h2>Proyectos</h2>
                 <div>
                     <h3>Realizacion de Portfolio Web para Pacci Pablo</h3>
                     <p>Fecha de Realizacion: Mayo 2022</p>
+                </div>
+                <div>
+                    <input id="editProyects" oninput="funEditProy(this.value)" style="display: none;" type="text"></input>
+                    <button>Añadir-Seccion</button>
                 </div>
             </div>
         </div>
