@@ -1,0 +1,9 @@
+* {font-family: roboto;}
+ul {list-style: none;}
+body {display: flex; flex-direction: column;}
+#social-links {display: flex;}
+#header {background-color: #00358E; 
+    color: #FFFFFF;}
+    .head {display: flex;
+        list-style:none;
+        margin: auto;}
