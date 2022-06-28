@@ -10,62 +10,83 @@
         <link rel="stylesheet" href="./bootstrap/css/bootstrap.css"> 
         
     </head>
-<body>
-    <div class="container-fluid" id="header">
-        <div class="row">
-        <div class="col-6">    
-        
-            <li>
-                <div>
+    <main class="flex-column">
+        <div class="container d-flex" id="header" >
+            <div class="row">
+                <div class="col-6 justify-content-start">    
                     <div>
-                        <img src="images/ArgProg.jpg" alt="ArgentinaPrograma" height="60px">
-                        <img src="images/Inti.jpg" alt="INTI" height="60px">
-                        <img src="images/MinDesProArg.jpg" alt="Ministerio_deDesarrolloyProduccion-Argentina" height="60px">
+                        <div>
+                            <img src="images/ArgProg.jpg" alt="ArgentinaPrograma" height="60px">
+                            <img src="images/Inti.jpg" alt="INTI" height="60px">
+                            <img src="images/MinDesProArg.jpg" alt="Ministerio_deDesarrolloyProduccion-Argentina" height="60px">
+                        </div>
+                        <p class="fs-6 ps-1 m-0">Argentina Programa - # Yo Programo</p>    
                     </div>
-                    <p style="padding-left: 16px; margin: 0px">Argentina Programa - # Yo Programo</p>    
                 </div>
-            </li>
+                <div class="col-6 d-flex justify-content-end">
+                    <div>
+                        <ul class="head p-2">
+                        <li style="padding-right: inherit;">
+                            <div>
+                                <ul id="social-links">
+                                    <li>
+                                        <a href="www.facebook.com">
+                                            <button id="face-link" >Face</button>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="www.instagram.com">
+                                            <button id="linkedin-link">Linkedin</button>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="www.linkedin.com">
+                                            <button id="insta-link">Insta</button>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="www.github.com">
+                                            <button id="git-link">Github</button>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                            <div>
+                                <input id="login" oninput="funcionLogin(this.value)" style="display: none;" type="text"></input>
+                                <li><button id="login-btn">LOGIN</button></li>
+                            </div>
+                                            </ul>
+                                            </div>
+                
+        
+            </div>
         </div>
-        <div class="col-6">
-            <li>
-                <div class="head-btn">
-                    <ul class="head" style="padding: 30px;">
-                    <li style="padding-right: inherit;">
-                        <div>
-                            <ul id="social-links">
-                                <li>
-                                    <a href="www.facebook.com">
-                                        <button id="face-link" >Face</button>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="www.instagram.com">
-                                        <button id="linkedin-link">Linkedin</button>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="www.linkedin.com">
-                                        <button id="insta-link">Insta</button>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="www.github.com">
-                                        <button id="git-link">Github</button>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                        <div>
-                            <input id="login" oninput="funcionLogin(this.value)" style="display: none;" type="text"></input>
-                            <li><button id="login-btn">LOGIN</button></li>
-                        </div>
-                                        </ul>
-                                        </div>
-            </li>
-       
         </div>
-    </div>
-    </div>
-</body>
+        <div>
+            <article class="card bg-light border-secondary">
+                <p class="fs-6">articulo1</p>
+            </article>
+        </div>    
+        <div>
+            <article  class="card bg-light border-secondary">
+                <p class="fs-6">articulo2</p>
+            </article>
+        </div>
+        <div>
+            <article class="card bg-light border-secondary">
+                <p class="fs-6">articulo3</p>
+            </article>
+        </div>
+        <div>
+            <article class="card bg-light border-secondary">
+                <p class="fs-6">articulo4</p>
+            </article>
+        </div>
+        <div>
+            <article class="card bg-light border-secondary">
+                <p class="fs-6">articulo5</p>
+            </article>
+        </div>
+    </main>
 </html>
