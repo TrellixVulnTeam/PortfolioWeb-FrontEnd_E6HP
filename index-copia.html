@@ -7,11 +7,11 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>Portfolio-PacciPablo</title>
         <link rel="stylesheet" href="style2.css">
-        <link rel="stylesheet" href="./bootstrap/css/bootstrap.css"> 
-        
+        <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">         
     </head>
-    <main class="flex-column">
-        <div class="container d-flex" id="header" >
+    <body>
+    <main class="flex-column" >
+        <div class="container" id="header" >
             <div class="row">
                 <div class="col-6 justify-content-start">    
                     <div>
@@ -56,37 +56,53 @@
                                 <input id="login" oninput="funcionLogin(this.value)" style="display: none;" type="text"></input>
                                 <li><button id="login-btn">LOGIN</button></li>
                             </div>
-                                            </ul>
-                                            </div>
-                
-        
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
-        <div>
-            <article class="card bg-light border-secondary">
-                <p class="fs-6">articulo1</p>
-            </article>
+        <div class="container" id="banner">
+            <div class="col-6">
+                <img id="profile-img" src="./images/pablo-img.jpg" alt="foto">
+            </div>
+            <div class="row">
+                <article class="card bg-light border-secondary col-6">
+                    <div>
+                        <p class="fs-1" style="margin: 1%;">Pablo Pacci</p>                        
+                        <div class="card">
+                            <ul id="titles-list">
+                                <li><h4>Full Stack Developer Jr.</h4></li>
+                                <li><h4>Técnico Electrónico</h4></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </article>
+                <article class="card bg-light border-secondary col-6">
+                    <p class="fs-6">articulo1</p>
+                </article>
+            </div>
         </div>    
-        <div>
+        <div class="container">
             <article  class="card bg-light border-secondary">
                 <p class="fs-6">articulo2</p>
             </article>
         </div>
-        <div>
+        <div class="container">
             <article class="card bg-light border-secondary">
                 <p class="fs-6">articulo3</p>
             </article>
         </div>
-        <div>
+        <div class="container">
             <article class="card bg-light border-secondary">
                 <p class="fs-6">articulo4</p>
             </article>
         </div>
-        <div>
+        <div class="container">
             <article class="card bg-light border-secondary">
                 <p class="fs-6">articulo5</p>
             </article>
         </div>
     </main>
+    </body>
 </html>
