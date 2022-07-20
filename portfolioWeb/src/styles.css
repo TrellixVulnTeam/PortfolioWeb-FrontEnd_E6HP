@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+* {font-family: roboto;}
+ul {list-style: none;}
+#social-links {display: flex;}
+#header {background-color: #00358E; 
+    color: #FFFFFF;}
+    .head {display: flex;
+        list-style:none;
+        margin: auto;}
+#banner { 
+    /*
+        background-image: url("../images/banner.jpg");
+    */    
+        background-repeat: no-repeat;
+         background-size: 100%;}
+#profile-img {height: 160px; 
+              border-radius: 50%; 
+              margin-top: 60px; margin-left: 20%;
+              border-style: solid;
+              border-width: 5px;
+              border-color: whitesmoke;}
