@@ -1,5 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-* {font-family: roboto;}
 ul {list-style: none;}
 #social-links {display: flex;}
 #header {background-color: #00358E; 
@@ -7,15 +6,18 @@ ul {list-style: none;}
     .head {display: flex;
         list-style:none;
         margin: auto;}
-#banner { 
-    /*
-        background-image: url("../images/banner.jpg");
-    */    
+#banner {background-image: url("./assets/images/banner.jpg");        
         background-repeat: no-repeat;
-         background-size: 100%;}
+        background-size: 100%;}
 #profile-img {height: 160px; 
               border-radius: 50%; 
               margin-top: 60px; margin-left: 20%;
               border-style: solid;
               border-width: 5px;
               border-color: whitesmoke;}
+.centrado {padding: 1rem;
+           text-align: center;}
+#titles-list {margin: 0rem;}
+.lista {text-align: justify;}
+.img-centrada {justify-content: center;}
+.img-facu {width: 40%; height: 40%;}
