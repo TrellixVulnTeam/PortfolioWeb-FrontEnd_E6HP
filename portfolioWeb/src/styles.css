@@ -7,8 +7,8 @@ ul {list-style: none;}
         list-style:none;
         margin: auto;}
 #banner {background-image: url("./assets/images/banner.jpg");        
-        background-repeat: no-repeat;
-        background-size: 100%;}
+         background-repeat: no-repeat;
+         background-size: 100%;}
 #profile-img {height: 160px; 
               border-radius: 50%; 
               margin-top: 60px; margin-left: 20%;

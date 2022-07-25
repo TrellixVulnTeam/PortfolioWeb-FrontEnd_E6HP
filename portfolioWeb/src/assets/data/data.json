@@ -1,7 +1,13 @@
 {
-    "nombre": "Pablo",
-    "apellido": "Pacci",
-    "correo": "pachy.sms@gmail.com",
-    "url_foto": "./assets/image/pablo.jpg",
-    "acercaDe": "Acerca de ... texto",
+    "acercaDe" :[
+        {
+            "nombre": "Pablo",
+            "apellido": "Pacci",
+            "correo": "pachy.sms@gmail.com",
+            "url_foto": "./assets/image/pablo.jpg",
+            "acercaDe": "Acerca de ... texto",
+            "url_banner": "./assets/image/banner.jpg"
+        }
+    ]
 }
+        
