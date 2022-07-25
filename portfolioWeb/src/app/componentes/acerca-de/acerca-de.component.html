@@ -1,13 +1,10 @@
-<div>
-    
+<div>    
     <div class="container" id="banner">
         <div class="row">        
         <div class="col-6 ">
             <img id="profile-img" src="./assets/images/pablo-img.jpg" alt="foto">
-            <div><i class="fa-pen"></i></div>            
         </div>
     </div>
-
     </div>
     <div class="container" id="info-card">
         <div class="card">
@@ -37,4 +34,68 @@
             </div>
         </div>
     </div>  
-</div> 
+</div>
+<!--CAMBIO DE CODIGO-->
+<!--
+<div>    
+    <div class="container" id="banner">
+        <div class="row">        
+        <div class="col-6 ">
+            <div class="profile-img">
+            <img id="profile-img" src="acercaDe.foto" alt="foto">
+            </div>                       
+        </div>
+    </div>
+    </div>
+    <div class="container" id="info-card">
+        <div class="card">
+            <div class="row">
+                <article class="card bg-light border-secondary col-4">
+                    <div>                           
+                        <p class="fs-1 centrado">{{acercaDe.nombre}} {{acercaDe.apellido}}</p>                     
+                        <div class="card" style="text-align: center; margin-bottom: 1rem;">
+                            <ul class="fs-5 centrado" id="titles-list">
+                                <li *ngFor ="let acercaDe of acercaDeList">
+                                    <p>{{acercaDe.titulo}}</p>
+                                </li>                                
+                            </ul>
+                        </div>
+                    </div>  
+                </article>
+                <article class="card bg-light border-secondary col-8">
+                    <div class="card centrado" id="data-ext" style="margin: 4%;">
+                        <p class="fs-5 fw-bold lista">Acerca de:</p>
+                        <div><p class="fs-6">{{acercaDe.acercaDe}}</p></div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>  
+</div>
+-->
+<!--
+<div>
+    <ul class="items-list">
+        <li *ngFor="let acerca-de of acerca-deList">
+            <div class="data-container">
+                <a href="#">
+                    <div class="logo-image">
+                        <img 
+                            class="logo-image" 
+                            src="acerca-de.foto"
+                        />
+                    </div>
+                    <div class="list-info">
+                        <div>
+                            <h3>{{acerca-de.algo}}</h3>
+                            <p>{{acerca-de.algo2}}</p>
+                            <p><time>{{acerca-de.start}}</time> - <time>{{acerca-de.end}}</time></p>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+--> 
