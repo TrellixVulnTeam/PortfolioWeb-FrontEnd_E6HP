@@ -1,13 +1,12 @@
 {
-    "acercaDe" :[
-        {
+    "urlbanner": "./assets/image/banner.jpg",
+
             "nombre": "Pablo",
             "apellido": "Pacci",
             "correo": "pachy.sms@gmail.com",
-            "url_foto": "./assets/image/pablo.jpg",
-            "acercaDe": "Acerca de ... texto",
-            "url_banner": "./assets/image/banner.jpg"
-        }
-    ]
-}
+            "urlfoto": "./assets/image/pablo.jpg",
+            "acercaDe": "Tecnico electromecanico y electronico, Estudiante de Ingenieria Elecronica - 3er año, Musico Percusionista, Practicante de Artes Marciales - Kung Fu BakSiuLam"
+            
         
+}
+         

@@ -6,8 +6,7 @@ ul {list-style: none;}
     .head {display: flex;
         list-style:none;
         margin: auto;}
-#banner {background-image: url("./assets/images/banner.jpg");        
-         background-repeat: no-repeat;
+#banner {background-repeat: no-repeat;
          background-size: 100%;}
 #profile-img {height: 160px; 
               border-radius: 50%; 

@@ -2,7 +2,7 @@
     <div class="container" id="banner" style="background-image: url('./assets/images/banner.jpg') ;">        
         <div class="row">        
         <div class="col-6 ">
-            <img id="profile-img" src="./assets/images/pablo-img.jpg" alt="foto">
+            <img id="profile-img" src="./assets/images/pablo.jpg" alt="foto">
         </div>
     </div>
     </div>
@@ -36,27 +36,30 @@
     </div>  
 </div>
 <!--CAMBIO DE CODIGO-->
-
 <div>    
-    <div class="container" id="banner" style="background-image: url({{acercaDe.url_banner}})">        
-        <div class="row">        
-        <div class="col-6 ">
-            <div class="profile-img">
-            <img id="profile-img" src="acercaDe.foto" alt="foto">
-            </div>                       
+    <div class="container" id="banner" style="background-image: [url]=(dataPortfolio.urlbanner)">      
+        <div class="row">
+            <div class="col-6 ">
+                <img id="profile-img" [src]="dataPortfolio.urlfoto">                                   
+            </div>
         </div>
-    </div>
     </div>
     <div class="container" id="info-card">
         <div class="card">
+        <p>hola</p>
+        </div>
+    </div>
+</div>
+<!--
+        
             <div class="row">
                 <article class="card bg-light border-secondary col-4">
                     <div>                           
-                        <p class="fs-1 centrado">{{acercaDe.nombre}} {{acercaDe.apellido}}</p>                     
+                        <p class="fs-1 centrado">{{dataList.nombre}} {{dataList.apellido}}</p>                     
                         <div class="card" style="text-align: center; margin-bottom: 1rem;">
                             <ul class="fs-5 centrado" id="titles-list">
-                                <li *ngFor ="let acercaDe of acercaDeList">
-                                    <p>{{acercaDe.titulo}}</p>
+                                <li *ngFor ="let titles of tituloList">
+                                    <p>{{titles.nomtitle}}</p>
                                 </li>                                
                             </ul>
                         </div>
@@ -65,15 +68,18 @@
                 <article class="card bg-light border-secondary col-8">
                     <div class="card centrado" id="data-ext" style="margin: 4%;">
                         <p class="fs-5 fw-bold lista">Acerca de:</p>
-                        <div><p class="fs-6">{{acercaDe.acercaDe}}</p></div>
+                        <div><p class="fs-6">{{dataList.acercaDe}}</p></div>
                     </div>
                 </article>
             </div>
         </div>
+
+
     </div>  
+
 </div>
 
-
+-->
 <!--
 <div>
     <ul class="items-list">
