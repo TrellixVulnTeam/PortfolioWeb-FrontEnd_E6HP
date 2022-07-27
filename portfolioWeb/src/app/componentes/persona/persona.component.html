@@ -1,21 +1,22 @@
+
 <div>    
-    <div class="container" id="banner" style="background-image: url('./assets/images/banner.jpg') ;">        
-        <div class="row">        
+    <div class="container" >
+        <div class="card row">
+        <div class="ban-img">
+        <img [src]="dataPortfolio.urlbanner"></div>       
         <div class="col-6 ">
-            <img id="profile-img" src="./assets/images/pablo.jpg" alt="foto">
+            <img id="profile-img" [src]="dataPortfolio.urlfoto" alt="foto">
         </div>
-    </div>
-    </div>
-    <div class="container" id="info-card">
+        </div>   
         <div class="card">
             <div class="row">
                 <article class="card bg-light border-secondary col-4">
                     <div>                           
-                        <p class="fs-1 centrado">Pablo Pacci</p>                     
+                        <p class="fs-1 centrado">{{dataPortfolio.nombre}} {{dataPortfolio.apellido}}</p>                     
                         <div class="card" style="text-align: center; margin-bottom: 1rem;">
                             <ul class="fs-5 centrado" id="titles-list">
-                                <li><p>Full Stack Developer Jr.</p></li>
-                                <li><p>Técnico Electrónico</p></li>
+                                <li *ngFor="let titulos of dataTitulos">
+                                    <p>{{titulos.nombre}}</p></li>                                <li><p>Técnico Electrónico</p></li>
                             </ul>
                         </div>
                     </div>  
@@ -23,86 +24,10 @@
                 <article class="card bg-light border-secondary col-8">
                     <div class="card centrado" id="data-ext" style="margin: 4%;">
                         <p class="fs-5 fw-bold lista">Acerca de:</p>
-                        <ul class="fs-6 lista">
-                            <li>Desarrollador Full Stack Jr.</li>
-                            <li>Técnico Electrónico con capacidad de Diagramado y Desarrollo de circuitos</li>
-                            <li>Técnico en reparacion de Equipos Informaticos</li>
-                            <li>Estudiante de Ingeniería en Electrónica - 3er año en Curso</li>
-                        </ul>
+                        <p class="fs-6">{{dataPortfolio.acercaDe}}</p>
                     </div>
                 </article>
             </div>
         </div>
     </div>  
 </div>
-<!--CAMBIO DE CODIGO-->
-<div>    
-    <div class="container" id="banner" style="background-image: [url]=(dataPortfolio.urlbanner)">      
-        <div class="row">
-            <div class="col-6 ">
-                <img id="profile-img" [src]="dataPortfolio.urlfoto">                                   
-            </div>
-        </div>
-    </div>
-    <div class="container" id="info-card">
-        <div class="card">
-        <p>hola</p>
-        </div>
-    </div>
-</div>
-<!--
-        
-            <div class="row">
-                <article class="card bg-light border-secondary col-4">
-                    <div>                           
-                        <p class="fs-1 centrado">{{dataList.nombre}} {{dataList.apellido}}</p>                     
-                        <div class="card" style="text-align: center; margin-bottom: 1rem;">
-                            <ul class="fs-5 centrado" id="titles-list">
-                                <li *ngFor ="let titles of tituloList">
-                                    <p>{{titles.nomtitle}}</p>
-                                </li>                                
-                            </ul>
-                        </div>
-                    </div>  
-                </article>
-                <article class="card bg-light border-secondary col-8">
-                    <div class="card centrado" id="data-ext" style="margin: 4%;">
-                        <p class="fs-5 fw-bold lista">Acerca de:</p>
-                        <div><p class="fs-6">{{dataList.acercaDe}}</p></div>
-                    </div>
-                </article>
-            </div>
-        </div>
-
-
-    </div>  
-
-</div>
-
--->
-<!--
-<div>
-    <ul class="items-list">
-        <li *ngFor="let acerca-de of acerca-deList">
-            <div class="data-container">
-                <a href="#">
-                    <div class="logo-image">
-                        <img 
-                            class="logo-image" 
-                            src="acerca-de.foto"
-                        />
-                    </div>
-                    <div class="list-info">
-                        <div>
-                            <h3>{{acerca-de.algo}}</h3>
-                            <p>{{acerca-de.algo2}}</p>
-                            <p><time>{{acerca-de.start}}</time> - <time>{{acerca-de.end}}</time></p>
-                        </div>
-
-                    </div>
-                </a>
-            </div>
-        </li>
-    </ul>
-</div>
---> 

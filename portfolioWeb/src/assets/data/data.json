@@ -1,12 +1,20 @@
 {
-    "urlbanner": "./assets/image/banner.jpg",
-
-            "nombre": "Pablo",
-            "apellido": "Pacci",
-            "correo": "pachy.sms@gmail.com",
-            "urlfoto": "./assets/image/pablo.jpg",
-            "acercaDe": "Tecnico electromecanico y electronico, Estudiante de Ingenieria Elecronica - 3er año, Musico Percusionista, Practicante de Artes Marciales - Kung Fu BakSiuLam"
+    "urlbanner": "https://i.ibb.co/hCM2Cxh/banner.jpg",
+    "nombre": "Pablo",
+    "apellido": "Pacci",
+    "correo": "pachy.sms@gmail.com",
+    "urlfoto": "https://i.ibb.co/XF8HrnK/pablo.jpg",
+    "acercaDe": "Tecnico electromecanico y electronico, Estudiante de Ingenieria Elecronica - 3er año, Musico Percusionista, Practicante de Artes Marciales - Kung Fu BakSiuLam",
             
-        
+    "titulo":[
+        {
+            "id": "1",
+            "nombre": "titulo1"
+        },
+        {   
+            "id": "2",
+            "nombre": "titulo2"
+        }
+            ]    
 }
          
