@@ -1,54 +1,21 @@
 <div class="container card bg-light border-secondary">    
-    <div><p class="fs-3">Experiencia</p></div>        
-    <div class="centrado">            
-        
-        <article class="card">
-            <div class="row">
-                <div class="col-3 card img-centrada">
-                    <div>
-                    <a href="www.restosoft.com.ar">
-                        <img src="./assets/images/resto-foto.jpg" alt="restosoft" height="100">
-                    </a>
+    <div><p class="col-3 fs-3 centrado">Experiencia</p></div>           
+    <article class="centrado">
+        <div *ngFor="let experiencia of dataExp">
+            <div class="row">                
+                <div class="col-3 card">
+                    <div id="logo">
+                        <img [src]="experiencia.urllogo">                        
                     </div>
                 </div>
                 <div class="col-9 card centrado">                    
-                    <ul>
-                        <li class="lista"> 
-                            <p>Año 2017 - Actualidad</p>
-                            <p class="fs-5 fw-bold">Restosoft</p>
-                            <p>Servicio Técnico Integral <br> Reparacion de equipos informaticos <br> Reparacion de Impresoras termicas y Matriciales para Sistemas de Comanda
-                            <br>Armado de redes y configuracion de redes LAN <br> Atencion a clientes personalizada</p>
-                        </li>
-                    </ul>                    
-                </div>                
-            </div>          
-        </article>
-        
-    </div>            
-</div>
-<!--
-<div class="data-control">
-    <div class="btn-edit">
-        <a href="#" class="btn-right"><i class="fa fa-pen"></i></a>
-    </div>
-</div>
--->
-<!--
-<article class="card">
-            <div class="row">
-                <div class="col-3 card centrado"><p></p></div>
-                <div class="col-9 card centrado">                    
-                    <ul>
-                        <li>
-                            <div class="lista">
-                            <p>Año 2016 - Actualidad<p>
-                            <p class="fs-5 fw-bold">Reparación Particular de Equipos Electrónicos</p>
-                            <p >Reparación de telefonia celular - tablets - notebooks - monitores</p>
-                            </div>
+                    <ul><li class="lista"><p>Año {{experiencia.anioini}} - Año {{experiencia.aniofin}}</p>
+                            <p class="fs-5 fw-bold">{{experiencia.empresa}}</p>
+                            <p class="fs-6">{{experiencia.tareas}}</p>
                         </li>
                     </ul>                    
                 </div>
-            </div>          
-        </article>
-
--->
+            </div>                
+        </div>          
+    </article>              
+</div>

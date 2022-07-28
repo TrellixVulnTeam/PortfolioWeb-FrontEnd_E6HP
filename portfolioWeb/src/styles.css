@@ -22,3 +22,8 @@ ul {list-style: none;}
 .img-facu {width: 40%; height: 40%;}
 .ban-img img{ width: 100%; 
             height: auto;}
+#logo img {max-width: 100%;
+           max-height: 100%;}    
+#footer{background-color: #00358E; 
+            color: #FFFFFF;}
+              

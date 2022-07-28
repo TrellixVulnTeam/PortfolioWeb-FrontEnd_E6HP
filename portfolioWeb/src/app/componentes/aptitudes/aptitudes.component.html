@@ -1,10 +1,30 @@
-<div class="container">
-    <article class="card bg-light border-secondary">
-        <p class="fs-6">apt-profesionales</p>
-    </article>
-</div>
-<div class="container">
-    <article class="card bg-light border-secondary">
-        <p class="fs-6">apt-tecnicas</p>
-    </article>
+<div class="container card bg-light border-secondary">    
+    <div><p class="col-3 fs-3 centrado">Aptitudes</p></div>                  
+    <article class="centrado">
+        <div class="row">
+            <div class="col-4 card"><p class="fs-5 centrado">Tecnicas</p></div>
+            <div class="col-8 card centrado">                    
+                <p class="fs-6 centrado"> {{dataAptitud[0].tecnica}} </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 card"><p class="fs-5 centrado">Profesionales</p></div>
+            <div class="col-8 card centrado">                    
+                <p class="fs-6 centrado"> {{dataAptitud[0].profesional}} </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 card"><p class="fs-5 centrado">Idiomas</p></div>
+            <div class="col-8 card centrado">                    
+                <p class="fs-6 centrado"> {{dataAptitud[0].idioma}} </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 card"><p class="fs-5 centrado">Implementaciones de Software</p></div>
+            <div class="col-8 card centrado">                    
+                <p class="fs-6 centrado"> {{dataAptitud[0].implesoft}} </p>
+            </div>
+        </div>
+
+    </article>    
 </div>

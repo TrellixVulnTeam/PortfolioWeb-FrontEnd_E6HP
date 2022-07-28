@@ -1,111 +1,22 @@
 <div class="container card bg-light border-secondary">    
-    <div><p class="fs-3">Estudios</p></div>        
-    <div class="centrado">            
-        <article class="card">
+    <div><p class="col-3 fs-3 centrado">Estudios</p></div>               
+    <article class="centrado">
+        <div *ngFor="let estudio of dataEstudio">
             <div class="row">
                 <div class="col-3 card">
-                    <div class="d-flex flex-column img-centrada">
-                        <img class="img-facu" src="./assets/images/ingunlp.jpg" alt="ing-unlp">
-                        <img class="img-facu" src="./assets/images/unlp.jpg" alt="UNLP">
+                    <div id="logo">
+                       <img [src]="estudio.urllogo">
                     </div>
                 </div>
                 <div class="col-9 card centrado">                    
                     <ul>
-                        <li class="lista">
-                            <p>Año 2010 - Actualidad. -3er Año<p>
-                            <p class="fs-5 fw-bold">Ingenieria en Eléctronica</p>
-                            <p >Universidad Nacional de La Plata</p>
-                        </li>
+                        <li class="lista"><p>Año {{estudio.anioini}} - Año {{estudio.aniofin}}</p>
+                            <p class="fs-5 fw-bold">{{estudio.institucion}}</p>
+                            <div><p class="fs-6">{{estudio.titulo}}</p></div>                                
+                        </li>                        
                     </ul>                    
                 </div>
-            </div>          
-        </article>
-        <article class="card">
-            <div class="row">
-                <div class="col-3 card img-centrada">
-                    <div>
-                    <a href="www.restosoft.com.ar">
-                        <img src="./assets/images/resto-foto.jpg" alt="restosoft" height="100">
-                    </a>
-                    </div>
-                </div>
-                <div class="col-9 card centrado">
-                </div>
-            </div>          
-        </article>
-    </div>            
-</div> 
-
-<div class="container card bg-light border-secondary">    
-    <div><p class="fs-3">Estudios</p></div>   
-    <div class="card">
-        <div class="row">
-            <div class="col-3 card">
-                <img class="img-facu" src="./assets/images/ingunlp.jpg" alt="ing-unlp">
-                <img class="img-facu" src="./assets/images/unlp.jpg" alt="UNLP">
             </div>
-            <div class="col-9 card"></div>
-        </div>
-    </div>
-    
-    <div class="centrado">            
-        <article class="card">
-            <div class="row">
-                <div class="col-3 card">
-                    <div class="d-flex flex-column img-centrada">
-                        <img class="img-facu" src="./assets/images/ingunlp.jpg" alt="ing-unlp">
-                        <img class="img-facu" src="./assets/images/unlp.jpg" alt="UNLP">
-                    </div>
-                </div>
-                <div class="col-9 card centrado">                    
-                    <ul>
-                        <li class="lista">
-                            <p>Año 2010 - Actualidad. -3er Año<p>
-                            <p class="fs-5 fw-bold">Ingenieria en Eléctronica</p>
-                            <p >Universidad Nacional de La Plata</p>
-                        </li>
-                    </ul>                    
-                </div>
-            </div>          
-        </article>
-        <article class="card">
-            <div class="row">
-                <div class="col-3 card img-centrada">
-                    <div>
-                    <a href="www.restosoft.com.ar">
-                        <img src="./assets/images/resto-foto.jpg" alt="restosoft" height="100">
-                    </a>
-                    </div>
-                </div>
-                <div class="col-9 card centrado">
-                </div>
-            </div>          
-        </article>
-    </div>            
-</div> 
-
-
-
-
-
-
-<div class="container" id="estudios-card">
-    <div class=card>
-        <div class="row">            
-            <article class="card bg-light border-secondary col-8 fs-6">            
-                <div class="centrado">
-                    <div class="card centrado">
-                        <h3>Año 2010 - Actualidad. -3er Año </h3>
-                        <p> Universidad Nacional de La Plata <br>Ingenieria en Eléctronica</p>
-                        <img src="images/ingunlp.jpg" alt="ing-unlp" height="130">
-                        <img src="images/unlp.jpg" alt="UNLP" height="130">
-                    </div>
-                    <div class="card centrado">
-                        <h3>Año 2002 - Año 2008</h3>
-                        <p>EET Nº1 "Crucero Gral. Belgrano" - (Buenos Aires-Pinamar) <br> Bachiller en Electromecánica</p>
-                    </div>                    
-                </div>
-            </article>
-        </div>
-    </div>
+        </div>          
+    </article>    
 </div>

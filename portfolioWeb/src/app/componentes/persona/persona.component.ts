@@ -15,8 +15,6 @@ export class PersonaComponent implements OnInit {
     this.datosPortfolio.obtenerDatos().subscribe(data => {
       this.dataPortfolio=data;
       this.dataTitulos=data.titulo;
-      console.log(this.dataPortfolio);
-      console.log(this.dataTitulos);
     })
      
   }

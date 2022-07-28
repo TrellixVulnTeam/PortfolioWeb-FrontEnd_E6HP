@@ -7,16 +7,12 @@ import { PortfolioWebService } from 'src/app/servicios/portfolio-web.service';
   styleUrls: ['./experiencia.component.css']
 })
 export class ExperienciaComponent implements OnInit {
-  constructor(){}
-  /*
-  experienciaList:any;
-  constructor(private datosPortfolio:PortfolioWebService) { }
-*/
+  dataExp:any;
+  constructor(private datosPortfolio :PortfolioWebService){}
+ 
   ngOnInit(): void {
-  /*  
-    this.datosPortfolio.obtenerDatos().subscribe(data=>)
-    this.experienciaList=data.experiencia;
-  */
+    this.datosPortfolio.obtenerDatos().subscribe(data => {
+      this.dataExp=data.experiencia;
+    })
   }
-
 }
