@@ -3,12 +3,12 @@ ul {list-style: none;}
 #social-links {display: flex;}
 #header {background-color: #00358E; 
     color: #FFFFFF;}
-    .head {display: flex;
+.links {display: flex;
         list-style:none;
         margin: auto;}
 #banner {background-repeat: no-repeat;
          background-size: 100%;}
-#profile-img {height: 160px; 
+#profile-img {height: 200px; 
               border-radius: 50%; 
               margin-top: -30%; margin-left: 20%;
               border-style: solid;
@@ -25,5 +25,12 @@ ul {list-style: none;}
 #logo img {max-width: 100%;
            max-height: 100%;}    
 #footer{background-color: #00358E; 
-            color: #FFFFFF;}
-              
+        color: #FFFFFF;
+        padding-top: 1rem;
+        padding-right: 1rem;}
+#data-ext{margin-top: 4%;
+          margin-left: 4%;
+          margin-right: 4%;}
+#mail{margin-left: 4%;
+      margin-right: 4%;
+      margin-bottom: 4%;}
