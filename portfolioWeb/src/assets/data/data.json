@@ -57,7 +57,7 @@
             "tecnica":["tec1" , "tec2"],
             "profesional":["prof1" , "prof2"],
             "idioma":["idio1","idio2"],
-            "implesoft":["soft1","soft2"]
+            "otra":["otra1","otra2"]
         }
     ],
     "proyectos":[

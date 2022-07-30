@@ -12,6 +12,7 @@ import { FooterComponent } from './componentes/footer/footer.component';
 import { AptitudesComponent } from './componentes/aptitudes/aptitudes.component';
 import { PortfolioWebService } from './servicios/portfolio-web.service';
 import { HttpClientModule} from '@angular/common/http';
+import { FormsComponent } from './componentes/forms/forms.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HttpClientModule} from '@angular/common/http';
     EstudiosComponent,
     ProyectosComponent,
     FooterComponent,
-    AptitudesComponent
+    AptitudesComponent,
+    FormsComponent
     
   ],
   imports: [
