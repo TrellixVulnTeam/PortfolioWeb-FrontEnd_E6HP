@@ -1,0 +1,21 @@
+<div class="container card bg-light border-secondary" id="experiencia">    
+    <div><p class="col-3 fs-3 centrado">Experiencia    <i class="bi bi-pencil-square fs-6" id="icon-edit-exp"></i> </p></div>              
+    <article class="centrado">        
+        <div *ngFor="let experiencia of dataExp">
+            <div class="row">                
+                <div class="col-3 card">
+                    <div id="logo">
+                        <img [src]="experiencia.urllogo">                        
+                    </div>
+                </div>
+                <div class="col-9 card centrado">                    
+                    <ul><li class="lista"><p>Año {{experiencia.anioini}} - Año {{experiencia.aniofin}}</p>
+                            <p class="fs-5 fw-bold">{{experiencia.empresa}}</p>
+                            <p class="fs-6">{{experiencia.tareas}}</p>
+                        </li>
+                    </ul>                    
+                </div>
+            </div>                
+        </div>          
+    </article>              
+</div>

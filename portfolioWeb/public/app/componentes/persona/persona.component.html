@@ -1,0 +1,43 @@
+
+<div>    
+    <div class="container" >
+        <div class="card row">
+        <div class="ban-img">
+        <img [src]="dataPortfolio.urlbanner"><i class="bi bi-pencil-square" id="icon-edit-ban"></i></div>
+        <div class="col-6 ">
+            <img id="profile-img" [src]="dataPortfolio.urlfoto" alt="foto">
+            <i class="bi bi-pencil-square" id="icon-edit-imgprof"></i>
+        </div>
+        </div>   
+        <div class="card">
+            <div class="row">
+                <article class="card bg-light border-secondary col-4">
+                    <div>                       
+                        <p class="fs-1 centrado">
+                            <i class="bi bi-pencil-square fs-6" id="icon-edit-name"></i>
+                            {{dataPortfolio.nombre}} {{dataPortfolio.apellido}}                            
+                        </p>                     
+                        <div class="card" style="text-align: center; margin-bottom: 1rem;">
+                            <i class="bi bi-pencil-square" id="icon-edit-title"></i>
+                            <ul class="fs-5 centrado" id="titles-list">
+                                <li *ngFor="let titulos of dataTitulos">
+                                    <p>{{titulos.nombre}}</p></li>                                
+                            </ul>
+                        </div>
+                    </div>  
+                </article>
+                <article class="card bg-light border-secondary col-8">
+                    <div class="card centrado" id="data-ext">
+                        <p class="fs-5 fw-bold lista">Acerca de:</p>
+                        <p class="fs-6">{{dataPortfolio.acercaDe}}</p>
+                        <i class="bi bi-pencil-square" id="icon-edit-about"></i>
+                    </div>
+                    <div class="card centrado" id="mail">
+                        <p class="fs-6">Correo de contacto: {{dataPortfolio.correo}}</p>
+                        <i class="bi bi-pencil-square fs-6" id="icon-edit-mail"></i>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>  
+</div>

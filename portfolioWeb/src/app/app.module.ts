@@ -13,6 +13,10 @@ import { AptitudesComponent } from './componentes/aptitudes/aptitudes.component'
 import { PortfolioWebService } from './servicios/portfolio-web.service';
 import { HttpClientModule} from '@angular/common/http';
 import { FormsComponent } from './componentes/forms/forms.component';
+import { InisessionComponent } from './componentes/inisession/inisession.component';
+import { PortfolioComponent } from './componentes/portfolio/portfolio.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { LandingComponent } from './componentes/landing/landing.component';
 
 @NgModule({
   declarations: [
@@ -24,13 +28,17 @@ import { FormsComponent } from './componentes/forms/forms.component';
     ProyectosComponent,
     FooterComponent,
     AptitudesComponent,
-    FormsComponent
+    FormsComponent,
+    InisessionComponent,
+    PortfolioComponent,
+    LandingComponent
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [PortfolioWebService],
   bootstrap: [AppComponent]

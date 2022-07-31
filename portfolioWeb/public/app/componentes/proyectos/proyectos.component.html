@@ -1,0 +1,13 @@
+<div class="container card bg-light border-secondary" id="proyectos">    
+    <div><p class="col-3 fs-3 centrado">Proyectos</p></div>                  
+    <article class="centrado">
+        <div *ngFor="let proyecto of dataProyecto">
+            <div class="row">
+                <div class="col-4 card"><p class="fs-5 centrado">{{proyecto.nombre}}</p></div>
+                <div class="col-8 card centrado">                                        
+                    <p class="fs-6 centrado"> {{proyecto.descripcion}} </p>
+                </div>
+            </div>
+        </div>
+    </article>    
+</div>

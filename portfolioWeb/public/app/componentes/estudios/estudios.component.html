@@ -1,0 +1,22 @@
+<div class="container card bg-light border-secondary" id="estudios">    
+    <div><p class="col-3 fs-3 centrado">Estudios     <i class="bi bi-pencil-square fs-6" id="icon-edit-study"></i> </p></div>               
+    <article class="centrado">
+        <div *ngFor="let estudio of dataEstudio">
+            <div class="row">
+                <div class="col-3 card">
+                    <div id="logo">
+                       <img [src]="estudio.urllogo">
+                    </div>
+                </div>
+                <div class="col-9 card centrado">                    
+                    <ul>
+                        <li class="lista"><p>Año {{estudio.anioini}} - Año {{estudio.aniofin}}</p>
+                            <p class="fs-5 fw-bold">{{estudio.institucion}}</p>
+                            <div><p class="fs-6">{{estudio.titulo}}</p></div>                                
+                        </li>                        
+                    </ul>                    
+                </div>
+            </div>
+        </div>          
+    </article>    
+</div>

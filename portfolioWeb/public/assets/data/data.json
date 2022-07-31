@@ -1,0 +1,76 @@
+{
+    "urlbanner": "https://i.ibb.co/hCM2Cxh/banner.jpg",
+    "nombre": "Pablo",
+    "apellido": "Pacci",
+    "correo": "pachy.sms@gmail.com",
+    "urlfoto": "https://i.ibb.co/XF8HrnK/pablo.jpg",
+    "acercaDe": "Tecnico electromecanico y electronico, Estudiante de Ingenieria Elecronica - 3er año, Musico Percusionista, Practicante de Artes Marciales - Kung Fu BakSiuLam",
+            
+    "titulo":[
+        {
+            "id": "1",
+            "nombre": "titulo1"
+        },
+        {   
+            "id": "2",
+            "nombre": "titulo2"
+        }
+    ],
+    "experiencia":[
+        {
+            "id":"1",
+            "empresa":"emp1",
+            "anioini":"anio1",
+            "aniofin":"fin1",
+            "urllogo":"",
+            "tareas": ["tarea1", "tarea2"]
+        },
+        {
+            "id":"2",
+            "empresa":"emp2",
+            "anioini":"ani2",
+            "aniofin":"fin2",
+            "urllogo":"https://www.restosoft.com.ar/img/logo2.png",
+            "tareas": ["tarea1", "tarea2"] 
+        }
+    ],
+    "estudio":[
+        {
+            "id":"1",
+            "institucion":"insti1",
+            "anioini":"anio1",
+            "aniofin":"fin1",
+            "urllogo":"",
+            "titulo":"titulo1"
+        },
+        {
+            "id":"2",
+            "institucion":"insti2",
+            "anioini":"ani2",
+            "aniofin":"fin2",
+            "urllogo":"https://unlp.edu.ar/wp-content/uploads/2022/06/Logo-UNLP.png",
+            "titulo":"titulo2" 
+        }
+    ],
+    "aptitud":[
+        {
+            "tecnica":["tec1" , "tec2"],
+            "profesional":["prof1" , "prof2"],
+            "idioma":["idio1","idio2"],
+            "otra":["otra1","otra2"]
+        }
+    ],
+    "proyectos":[
+        {
+            "id": "1",
+            "nombre": "proye1",
+            "descripcion":"descripcion1"
+        },
+        {
+            "id": "2",
+            "nombre": "proye2",
+            "descripcion": "descripcion2"
+        }
+    ]
+}
+         

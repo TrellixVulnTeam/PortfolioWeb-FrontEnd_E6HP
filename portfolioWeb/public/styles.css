@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+ul {list-style: none;}
+#social-links {display: flex;}
+#header {background-color: #00358E; 
+    color: #FFFFFF;}
+.links {display: flex;
+        list-style:none;
+        margin: auto;}
+#banner {background-repeat: no-repeat;
+         background-size: 100%;}
+#profile-img {height: 200px; 
+              border-radius: 50%; 
+              margin-top: -30%; margin-left: 20%;
+              border-style: solid;
+              border-width: 5px;
+              border-color: whitesmoke;}              
+.centrado {padding: 1rem;
+           text-align: center;}
+#titles-list {margin: 0rem;}
+.lista {text-align: justify;}
+.img-centrada {justify-content: center;}
+.img-facu {width: 40%; height: 40%;}
+.ban-img img{ width: 100%; 
+            height: auto;}
+#logo img {max-width: 100%;
+           max-height: 100%;}    
+#footer{background-color: #00358E; 
+        color: #FFFFFF;
+        padding-top: 1rem;
+        padding-right: 1rem;}
+#data-ext{margin-top: 4%;
+          margin-left: 4%;
+          margin-right: 4%;}
+#mail{margin-left: 4%;
+      margin-right: 4%;
+      margin-bottom: 4%;}
